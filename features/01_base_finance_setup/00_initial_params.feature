@@ -10,7 +10,7 @@
 
 Feature: INITIAL SET-UP FOR NEW DATABASE
 
-  @base_finance_create_db
+  @base_finance_create_db @no_login
   Scenario: CREATE DATABASE
     Given I create database from config file
 
